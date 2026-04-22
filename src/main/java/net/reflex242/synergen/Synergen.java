@@ -47,7 +47,7 @@ public class Synergen {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.M_PLUS_E_HEART);
+            event.accept(ModItems.M_PLUS_E_HEART.get());
         }
     }
 
